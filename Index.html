@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang ="ja">
+    <head>
+        <meta charset="UTF-8">
+        <title>Yuto Hoshi</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <header>
+            <a href="#top">Yuto Hoshi</a>
+            <nav>
+                <a href="#about">About</a>
+                <a href="#works">Works</a>
+            </nav> 
+        </header>
+        <main> 
+            <section id="top">
+                <img src="./media/IMG_2019.jpg" width="80%">
+                <h1>
+                Yuto Hoshi<br>
+                portfolio
+                </h1>
+            </section>
+            <section id="about">
+
+                <h3>About</h3>
+                <p>
+                   星　悠斗<br>
+                   東京都市大学デザイン・データ科学部
+                </p>
+                <p>
+                   専門：データサイエンス<br>
+                   スキル：ほんのちょっとJava
+                </p>
+            </section>
+            <section id="works" class="works">  
+                <h3>works</h3>  
+                <div class="works-controls">
+                    <select id="category">
+                        <option value="all">すべてのカテゴリ</option>
+                    </select>
+                    <select id="sort">
+                        <option value="new">新しい順</option>
+                        <option value="old">古い順</option>
+                        <option value="title">タイトル順</option>
+                    </select>
+                </div>
+             <div id="works-grid"></div>
+            </section>
+
+        </main>
+        <footer>
+            <span>© 2026 Yuto Hoshi</span>
+
+        </footer>
+        <script src="works.js"></script>
+    </body>
+</html>
