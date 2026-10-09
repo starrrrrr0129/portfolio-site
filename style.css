@@ -68,7 +68,7 @@ nav a:hover{
 }
 
 .work-card p{
-    margin: o 15px 15px;
+    margin: 0 15px 15px;
     font-size: 14px;
     line-height: 1.6;
 }
@@ -98,4 +98,23 @@ nav a:hover{
 .work-year {
     font-size: 10px;
     margin-top: 10px;
+}
+
+/*スマートフォン*/
+@media screen and (max-width: 600px){
+    #top {
+        padding-top: 80px;
+    }
+
+    #top img {
+        width: 100%;
+    }
+
+    #works-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .works-controls{
+        flex-direction: column;
+    }
 }
