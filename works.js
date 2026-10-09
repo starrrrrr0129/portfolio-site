@@ -2,10 +2,10 @@ fetch("works.csv")
     .then(function(response){
         return response.text();
     })
-    .then(function(date){
+    .then(function(data){
 
         //CSVを行ごとに分割
-        var rows = date.trim().split("\n");
+        var rows = data.trim().split(/\r?\n/);
 
         //1行目は見出し
         var headers = rows[0].split(",");
@@ -69,6 +69,7 @@ fetch("works.csv")
         var selectedCategory = categorySelect.value;
         //選択されたソート方法を取得
         var sortType = sortSelect.value;
+       
         //元のworksをコピー
         var filteredWorks = works.slice();
         if (selectedCategory !=="all"){
