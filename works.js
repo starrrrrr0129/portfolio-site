@@ -137,7 +137,7 @@ fetch("works.csv")
     var longitude =139.6917;
 
     var weatherUrl =
-     "https://api.open-mento.com/v1/forecast" +
+     "https://api.open-meteo.com/v1/forecast" +
      "?latitude=" + latitude +
      "&longitude=" + longitude +
      "&current=temperature_2m,weather_code" +
@@ -153,7 +153,7 @@ fetch("works.csv")
         })
 
         function showWeather(code) {
-            var icon = document.getElementById("weater-icon");
+            var icon = document.getElementById("weather-icon");
 
             if (code === 0) {
                 icon.textContent = "☀";
