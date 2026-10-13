@@ -1,6 +1,6 @@
 body{
     background: #ffffff;
-    color:#33ad28;
+    color:#171717;
 }
 
 a{
@@ -20,7 +20,7 @@ header{
     width: 100%;
     position: fixed;
     padding: 0px 30px;
-    background: #ffffff;
+    background: #918d8d;
     height: 75px;
     top: 0;
     
@@ -42,7 +42,7 @@ footer{
 }
 
 nav a:hover{
-    color: #9c9393
+    color: #356edf
 }
 
 /*Works*/
@@ -60,7 +60,7 @@ nav a:hover{
 }
 
 .work-card{
-    border:1px solid #000000;
+    border:1px solid #02346d;
 }
 .work-card h4{
     margin: 15px 15px 5px;
@@ -92,7 +92,7 @@ nav a:hover{
 .work-category {
     font-size: 4px;
     padding-top: 14px;
-    color: #9c9c9c;
+    color: #4e2ae1;
 }
 
 .work-year {
@@ -125,21 +125,21 @@ nav a:hover{
 }
 
 body.weather-sunny{
-    background-color: #fffaf0;
+    background-color: #9fd299;
 }
 body.weather-sunny .site-header {
-    background-color: #fffaf0;
+    background-color: #ef0b0b;
 }
 
 body.weather-cloudy{
-    background-color: #dfe3e8;
+    background-color: #5b5d5e;
 }
 body.weather-cloudy .site-header{
-    background-color: #dfe3e8;
+    background-color: #698cb5;
 }
 body.weather-rainy{
-    background-color: #cbd9e5;
+    background-color: #0683f1;
 }
 body.weather-rainy .site-header {
-    background-color: #cbd9e5;
+    background-color: #1abde6;
 }
